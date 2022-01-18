@@ -8,7 +8,6 @@ const assertEqual = require('./assertEqual');
 
 const tail = function(arr) {
   let headlessArr = arr.slice(1);
-  console.log(headlessArr);
   return headlessArr;
 
 };
